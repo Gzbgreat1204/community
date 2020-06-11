@@ -17,3 +17,11 @@
 [Visual Paradigm](https://www.visual-paradigm.com)
 
 
+## Cookie Session
+Cookie:相当于银行卡，里面的name相当于卡号，value相当于卡号里对应的唯一标识
+
+Sessio:相当于银行账户
+
+浏览器:相当于你自己
+
+服务器:相当于银行
