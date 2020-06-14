@@ -18,6 +18,7 @@
 
 [Visual Paradigm](https://www.visual-paradigm.com)
 
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)
 
 ## Cookie Session
 Cookie:相当于银行卡，里面的name相当于卡号，value相当于卡号里对应的唯一标识
@@ -40,4 +41,8 @@ create table USER
 	GMT_MODIFIED BIGINT,
 	primary key (ID)
 );
+```
+
+```bash
+    mvn flyway:migrate
 ```

@@ -10,7 +10,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class indexController {
+public class IndexController {
 
     @Autowired
     private UserMapper userMapper;
