@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
@@ -50,7 +49,7 @@ public class AuthorizeController {
         String accessToken = githubProvider.getAccessToken(accessTokenDTO);
         GithubUser githubUser = githubProvider.getUser(accessToken);
 
-        if (githubUser != null) {
+        if (githubUser != null && githubUser.getId() != null) {
             User user = new User();
             String token = UUID.randomUUID().toString();
 
@@ -63,7 +62,7 @@ public class AuthorizeController {
 
             //登录成功，写Cookie 和 Session
             //request.getSession().setAttribute("user", githubUser);
-            response.addCookie(new Cookie("token",token));
+            response.addCookie(new Cookie("token", token));
             return "redirect:/";
         } else {
             //登录失败，重新登录
