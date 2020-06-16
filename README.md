@@ -20,6 +20,8 @@
 
 [Flyway](https://flywaydb.org/getstarted/firststeps/maven)
 
+[Lombok](https://projectlombok.org/)
+
 ## Cookie Session
 Cookie:相当于银行卡，里面的name相当于卡号，value相当于卡号里对应的唯一标识
 
