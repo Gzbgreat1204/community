@@ -22,6 +22,8 @@
 
 [Lombok](https://projectlombok.org/)
 
+[Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)
+
 ## Cookie Session
 Cookie:相当于银行卡，里面的name相当于卡号，value相当于卡号里对应的唯一标识
 
