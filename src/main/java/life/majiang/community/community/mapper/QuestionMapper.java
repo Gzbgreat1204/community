@@ -1,6 +1,8 @@
 package life.majiang.community.community.mapper;
 
 import java.util.List;
+
+import life.majiang.community.community.dto.QuestionQueryDTO;
 import life.majiang.community.community.model.Question;
 import life.majiang.community.community.model.QuestionExample;
 import org.apache.ibatis.annotations.Param;
