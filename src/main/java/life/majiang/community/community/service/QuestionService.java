@@ -70,7 +70,7 @@ public class QuestionService {
         //分页方法
         paginationDTO.setPagination(totalPage, page);
         //size*(page-1)
-        Integer offset = size * (page - 1);
+        Integer offset = page < 1 ? 0 : size * (page - 1);
         QuestionExample questionExample = new QuestionExample();
         questionExample.setOrderByClause("gmt_create desc");
         questionQueryDTO.setSize(size);
