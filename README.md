@@ -19,8 +19,8 @@
 | UFile | https://github.com/ucloud/ufile-sdk-java |
 
 ## 本地运行手册
-1.安装必备工具  
-   JDK，Maven
+1.安装必备工具： JDK，Maven
+
 2.克隆代码到本地
 ```bash
     git clone https://github.com/codedrinker/community.git
@@ -47,7 +47,7 @@ Sessio:相当于银行账户
 服务器:相当于银行
 
 ## 脚本
-#### 未使用flyway之前的数据库脚本
+### 未使用flyway之前的数据库脚本
 ```sql
 create table USER
 (
@@ -60,7 +60,7 @@ create table USER
 	primary key (ID)
 );
 ```
-#### 常用命令
+### 常用命令
 ```bash
     git clone https://github.com/Gzbgreat1204/community.git
     git pull
