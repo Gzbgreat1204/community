@@ -117,7 +117,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>6.4.4</version>
                 <configuration>
-                    <url>jdbc:mysql:~/10.9.117.159:3306/mawen</url>
+                    <url>jdbc:mysql://10.9.117.159:3306/mawen?useUnicode=true&serverTimezone=GMT&characterEncoding=utf8&useSSL=true</url>
                     <user>root</user>
                     <password>Gzbgreatlove1204</password>>
                 </configuration>
