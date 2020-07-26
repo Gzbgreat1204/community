@@ -119,7 +119,7 @@
                 <configuration>
                     <url>jdbc:mysql:~/10.9.117.159:3306/mawen</url>
                     <user>root</user>
-                    <password>123</password>>
+                    <password>Gzbgreatlove1204</password>>
                 </configuration>
                 <dependencies>
                     <dependency>
