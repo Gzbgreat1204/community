@@ -23,7 +23,7 @@
 
 2.克隆代码到本地
 ```bash
-    git clone https://github.com/codedrinker/community.git
+    git clone https://github.com/Gzbgreat1204/community.git
 ```
 3.运行打包命令
 ```bash
