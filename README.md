@@ -37,15 +37,6 @@
 ```bash
     http://localhost:8887
 ```
-## Cookie Session
-Cookie:相当于银行卡，里面的name相当于卡号，value相当于卡号里对应的唯一标识
-
-Sessio:相当于银行账户
-
-浏览器:相当于你自己
-
-服务器:相当于银行
-
 ## 脚本
 ### 未使用flyway之前的数据库脚本
 ```sql
@@ -66,7 +57,7 @@ create table USER
     git pull
     mvn clean compile flyway:repair
     mvn clean compile flyway:migrate
-    mvn package
+    mvn clean compile package
     java -jar -Dspring.profiles.active=production target/community-0.0.1-SNAPSHOT.jar
     vim src/main/resources/application-production.properties
     mvn flyway:migrate
